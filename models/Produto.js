@@ -7,6 +7,8 @@ const produtoSchema = new mongoose.Schema({
   description: String,
   category: String,
   image: String
-});
+},
+	this.collection = 'produto'
+);
 
 module.exports = mongoose.model('Produto', produtoSchema);
