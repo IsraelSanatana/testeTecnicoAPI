@@ -18,7 +18,7 @@ mongoose.connect(process.env.MONGO_URI, {
 .catch(err => console.error('Erro no MongoDB:', err));
 
 app.get('/', (req, res) => {
-  res.send('API funcionando');
+  res.send('APIii funcionando');
 });
 
 
